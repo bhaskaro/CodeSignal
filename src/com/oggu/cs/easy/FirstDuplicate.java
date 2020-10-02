@@ -8,6 +8,9 @@ public class FirstDuplicate {
 
         int[] nums = new int[]{2, 1, 3, 5, 3, 2};
         System.out.println(Arrays.toString(nums) + " -- firstDuplicate: " + firstDuplicate(nums));
+
+        nums = new int[]{2, 1, 1, 3, 5, 3, 2};
+        System.out.println(Arrays.toString(nums) + " -- firstDuplicate: " + firstDuplicate(nums));
     }
 
     static int firstDuplicate(int[] nums) {
